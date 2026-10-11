@@ -1,0 +1,10 @@
+{
+  "axe": {
+    "sha256": "c91a8721a951d45c5c010769f68a650474d512819bae6a191306b652c71b999f",
+    "vpk_entry": "scripts/npc/heroes/npc_dota_hero_axe.txt"
+  },
+  "dragon_knight": {
+    "sha256": "3dcfc11fbe634effac91207ead048537ffdda6b22ad030c7c097c1d43b3b2043",
+    "vpk_entry": "scripts/npc/heroes/npc_dota_hero_dragon_knight.txt"
+  }
+}

@@ -1,0 +1,15 @@
+"lang"
+{
+"Language" "schinese"
+"Tokens"
+{
+"DOTA_Tooltip_ability_replica_axe_q" "狂战士之吼"
+"DOTA_Tooltip_ability_replica_axe_w" "战斗饥渴"
+"DOTA_Tooltip_ability_replica_axe_e" "反击螺旋"
+"DOTA_Tooltip_ability_replica_axe_r" "淘汰之刃"
+"DOTA_Tooltip_ability_replica_dragon_knight_q" "火焰气息"
+"DOTA_Tooltip_ability_replica_dragon_knight_w" "神龙摆尾"
+"DOTA_Tooltip_ability_replica_dragon_knight_e" "巨龙之怒"
+"DOTA_Tooltip_ability_replica_dragon_knight_r" "古龙形态"
+}
+}

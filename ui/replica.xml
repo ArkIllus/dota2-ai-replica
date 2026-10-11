@@ -1,0 +1,42 @@
+<root><styles><include src="s2r://panorama/styles/custom_game/replica.vcss_c" /></styles><scripts><include src="s2r://panorama/scripts/custom_game/replica.vjs_c" /></scripts><Panel class="Root" hittest="false"><Panel class="Lab"><Button class="Header" onactivate="ToggleLab()"><Label text="斧王岛 · 复刻版   ▾"/></Button><Panel id="Controls"><Label id="Status" text="载入英雄…"/>
+<Panel class="Row">
+<Button onactivate="FocusHero()"><Label text="定位英雄 F1"/></Button>
+<Button onactivate="Command('focus','enemy')"><Label text="定位敌人"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('hero','axe')"><Label text="斧王"/></Button>
+<Button onactivate="Command('hero','dragon_knight')"><Label text="龙骑士"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="LevelUp()"><Label text="升级"/></Button>
+<Button onactivate="Command('level',30)"><Label text="满级"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('refresh')"><Label text="刷新"/></Button>
+<Button onactivate="Command('enemy')"><Label text="添加敌方英雄"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('ai')"><Label text="敌人 AI"/></Button>
+<Button onactivate="Command('pause')"><Label id="PauseLabel" text="暂停"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('gold')"><Label id="GoldLabel" text="无限金币"/></Button>
+<Button onactivate="Command('free')"><Label id="FreeLabel" text="无限技能"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('courier','select')"><Label text="选择信使"/></Button>
+<Button onactivate="Command('courier','deliver')"><Label text="运送物品"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('courier','home')"><Label text="返回基地"/></Button>
+<Button onactivate="Command('stash','boots')"><Label text="鞋 → 储藏处"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('buy','branches')"><Label text="树枝"/></Button>
+<Button onactivate="Command('buy','boots')"><Label text="速度之靴"/></Button>
+</Panel>
+<Panel class="Row">
+<Button onactivate="Command('buy','chainmail')"><Label text="锁子甲"/></Button>
+<Button onactivate="Command('buy','broadsword')"><Label text="阔剑"/></Button>
+</Panel>
+<Label id="Notice" text="右键移动/攻击；Q/W/E/R 施法。点击标题收起面板。"/></Panel></Panel></Panel></root>

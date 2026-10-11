@@ -1,0 +1,68 @@
+"DOTAAbilities"
+{
+"item_replica_branches"
+{
+"ID" "11001"
+"ItemPermanent" "1"
+"BaseClass" "item_lua"
+"ScriptFile" "replica_items"
+"AbilityTextureName" "item_branches"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"ItemCost" "55"
+"ItemPurchasable" "0"
+"ItemSellable" "1"
+"ItemDroppable" "1"
+}
+"item_replica_gauntlets"
+{
+"ID" "11002"
+"ItemPermanent" "1"
+"BaseClass" "item_lua"
+"ScriptFile" "replica_items"
+"AbilityTextureName" "item_gauntlets"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"ItemCost" "140"
+"ItemPurchasable" "0"
+"ItemSellable" "1"
+"ItemDroppable" "1"
+}
+"item_replica_boots"
+{
+"ID" "11003"
+"ItemPermanent" "1"
+"BaseClass" "item_lua"
+"ScriptFile" "replica_items"
+"AbilityTextureName" "item_boots"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"ItemCost" "500"
+"ItemPurchasable" "0"
+"ItemSellable" "1"
+"ItemDroppable" "1"
+}
+"item_replica_chainmail"
+{
+"ID" "11004"
+"ItemPermanent" "1"
+"BaseClass" "item_lua"
+"ScriptFile" "replica_items"
+"AbilityTextureName" "item_chainmail"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"ItemCost" "550"
+"ItemPurchasable" "0"
+"ItemSellable" "1"
+"ItemDroppable" "1"
+}
+"item_replica_broadsword"
+{
+"ID" "11005"
+"ItemPermanent" "1"
+"BaseClass" "item_lua"
+"ScriptFile" "replica_items"
+"AbilityTextureName" "item_broadsword"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"ItemCost" "1000"
+"ItemPurchasable" "0"
+"ItemSellable" "1"
+"ItemDroppable" "1"
+}
+}

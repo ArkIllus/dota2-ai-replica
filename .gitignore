@@ -1,0 +1,23 @@
+runtime/
+verification/
+__pycache__/
+backups/
+.venv/
+*.pyc
+*.log
+.env
+.env.*
+# Historical process notes and downloaded metadata stay local.
+/DESIGN.md
+/PLAN.md
+/FIDELITY-PLAN.md
+/STATUS.md
+/research/
+/启动复刻版.cmd
+# Never publish original or generated game binaries/assets.
+*.vpk
+*.dll
+*.exe
+*.vxml_c
+*.vcss_c
+*.vjs_c

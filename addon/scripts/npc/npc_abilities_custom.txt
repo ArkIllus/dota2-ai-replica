@@ -1,0 +1,149 @@
+"DOTAAbilities"
+{
+"replica_axe_q"
+{
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "axe_berserkers_call"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "4"
+"AbilityManaCost" "90 100 110 120"
+"AbilityCastRange" "0"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "90 100 110 120"
+"cast_range" "0"
+}
+}
+"replica_axe_w"
+{
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "axe_battle_hunger"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "4"
+"AbilityManaCost" "50 60 70 80"
+"AbilityCastRange" "600 700 800 900"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "50 60 70 80"
+"cast_range" "600 700 800 900"
+}
+}
+"replica_axe_e"
+{
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "axe_counter_helix"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "4"
+"AbilityManaCost" "0"
+"AbilityCastRange" "0"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "0"
+"cast_range" "0"
+}
+}
+"replica_axe_r"
+{
+"AbilityType" "DOTA_ABILITY_TYPE_ULTIMATE"
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "axe_culling_blade"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "3"
+"AbilityManaCost" "100 125 150"
+"AbilityCastRange" "175"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "100 125 150"
+"cast_range" "175"
+}
+}
+"replica_dragon_knight_q"
+{
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "dragon_knight_breathe_fire"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_POINT"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "4"
+"AbilityManaCost" "90 95 100 105"
+"AbilityCastRange" "1000"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "90 95 100 105"
+"cast_range" "1000"
+}
+}
+"replica_dragon_knight_w"
+{
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "dragon_knight_dragon_tail"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "4"
+"AbilityManaCost" "70 80 90 100"
+"AbilityCastRange" "150"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "70 80 90 100"
+"cast_range" "150"
+}
+}
+"replica_dragon_knight_e"
+{
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "dragon_knight_wyrms_wrath"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "4"
+"AbilityManaCost" "0"
+"AbilityCastRange" "0"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "0"
+"cast_range" "0"
+}
+}
+"replica_dragon_knight_r"
+{
+"AbilityType" "DOTA_ABILITY_TYPE_ULTIMATE"
+"BaseClass" "ability_lua"
+"ScriptFile" "replica_abilities"
+"AbilityTextureName" "dragon_knight_elder_dragon_form"
+"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+"AbilityUnitTargetTeam" "DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"MaxLevel" "3"
+"AbilityManaCost" "50"
+"AbilityCastRange" "0"
+"AbilityCastPoint" "0"
+"AbilityValues"
+{
+"mana_cost" "50"
+"cast_range" "0"
+}
+}
+}

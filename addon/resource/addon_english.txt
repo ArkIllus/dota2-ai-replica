@@ -1,0 +1,15 @@
+"lang"
+{
+"Language" "english"
+"Tokens"
+{
+"DOTA_Tooltip_ability_replica_axe_q" "Axe Berserkers Call"
+"DOTA_Tooltip_ability_replica_axe_w" "Axe Battle Hunger"
+"DOTA_Tooltip_ability_replica_axe_e" "Axe Counter Helix"
+"DOTA_Tooltip_ability_replica_axe_r" "Axe Culling Blade"
+"DOTA_Tooltip_ability_replica_dragon_knight_q" "Dragon Knight Breathe Fire"
+"DOTA_Tooltip_ability_replica_dragon_knight_w" "Dragon Knight Dragon Tail"
+"DOTA_Tooltip_ability_replica_dragon_knight_e" "Dragon Knight Wyrms Wrath"
+"DOTA_Tooltip_ability_replica_dragon_knight_r" "Dragon Knight Elder Dragon Form"
+}
+}
